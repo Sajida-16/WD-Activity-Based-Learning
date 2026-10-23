@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8ef;
+    color: #333;
+}
+
+header {
+    background: #e76f24;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    padding: 25px;
+    margin: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #d85b17;
+}
+
+.hero {
+    text-align: center;
+    background: #ffe0bd;
+    padding: 45px 20px;
+}
+
+.button, button {
+    background: #e76f24;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background: #fff0df;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #ffd0a8;
+    transform: scale(1.04);
+}
+
+input, select {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

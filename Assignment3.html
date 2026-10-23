@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📚 Digital Library</h1>
+    <p>Discover Your Next Favorite Book</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#books">Books</a>
+    <a href="#categories">Categories</a>
+    <a href="#rules">Library Rules</a>
+</nav>
+
+<section id="home" class="welcome">
+    <h2>Welcome to Our Library</h2>
+    <p>Read, Learn and Explore New Ideas!</p>
+    <input type="text" placeholder="Search books or authors...">
+</section>
+
+<section id="categories">
+    <h2>Book Categories</h2>
+    <div class="categories">
+        <div>💻 Programming</div>
+        <div>🔬 Science</div>
+        <div>📖 Fiction</div>
+        <div>🌍 History</div>
+    </div>
+</section>
+
+<section id="books">
+    <h2>Popular Books</h2>
+
+    <div class="book-container">
+        <div class="book">
+            <img src="https://covers.openlibrary.org/b/isbn/9780131103627-M.jpg"
+                 alt="C Programming book cover">
+            <h3>The C Programming Language</h3>
+            <p>Author: Brian Kernighan</p>
+            <p>Category: Programming</p>
+            <span class="available">Available</span>
+        </div>
+
+        <div class="book">
+            <img src="https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg"
+                 alt="Clean Code book cover">
+            <h3>Clean Code</h3>
+            <p>Author: Robert C. Martin</p>
+            <p>Category: Programming</p>
+            <span class="available">Available</span>
+        </div>
+
+        <div class="book">
+            <img src="https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg"
+                 alt="Pride and Prejudice book cover">
+            <h3>Pride and Prejudice</h3>
+            <p>Author: Jane Austen</p>
+            <p>Category: Fiction</p>
+            <span class="unavailable">Not Available</span>
+        </div>
+    </div>
+</section>
+
+<section id="rules">
+    <h2>Library Rules</h2>
+    <ul>
+        <li>Return books on time.</li>
+        <li>Keep books clean and safe.</li>
+        <li>Maintain silence in the library.</li>
+        <li>Handle all books carefully.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Book Information</h2>
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>C Programming</td>
+            <td>Brian Kernighan</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Clean Code</td>
+            <td>Robert C. Martin</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Pride and Prejudice</td>
+            <td>Jane Austen</td>
+            <td>Unavailable</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>© 2026 Digital Library Management</p>
+</footer>
+
+</body>
+</html>
